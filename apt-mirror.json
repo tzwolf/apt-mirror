@@ -1,0 +1,330 @@
+{
+    "thread": 3,
+    "local": "/var/spool/apt-mirror/",
+	"rest": [512, 60],
+	"wait": [5,8,1.5],
+    "mirror": [{
+        "sources": "http://archive.ubuntu.com/ubuntu/",
+        "weight": 2,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "http://mirrors.163.com/ubuntu/",
+        "weight": 1,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "http://mirrors.zju.edu.cn/ubuntu/",
+        "weight": 1,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "https://mirrors.aliyun.com/ubuntu/",
+        "weight": 2,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "https://mirrors.huaweicloud.com/ubuntu/",
+        "weight": 2,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "https://mirrors.bupt.edu.cn/ubuntu/",
+        "weight": 1,
+        "arch": "amd64",
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }, {
+        "sources": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/",
+        "weight": 4,
+        "arch": ["amd64"],
+        "_arch": ["amd64", "arm64", "i386", "armhf", "ppc64el", "s390x"],
+        "deb": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }],
+        "deb-src": [{
+            "jammy": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "jammy-updates": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-backports": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-proposed": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-security": ["main", "restricted", "multiverse", "universe"]
+        }, {
+            "noble-updates": ["main", "restricted", "multiverse", "universe"]
+        }]
+    }]
+}
